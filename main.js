@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const {Client, Routes, GatewayIntentBits, ActivityType, EmbedBuilder} = require("discord.js");
-const var_dump = require("var_dump");
 
 const client = new Discord.Client({   
     intents: [
