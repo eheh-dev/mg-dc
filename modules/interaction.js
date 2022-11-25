@@ -263,7 +263,7 @@ function Interactions(client){
                 let guildQueue = client.player.getQueue(interaction.guild.id);
                 const ProgressBar = guildQueue.createProgressBar();
                 let progress = ProgressBar.times
-                console.clear();
+                //console.clear();
                 let songName = guildQueue.songs[0].name
                 let songUrl = guildQueue.songs[0].url
                 let songIcon = guildQueue.songs[0].thumbnail
