@@ -20,7 +20,7 @@ function actions(client){
     // Emitted when a song changed.
     })
     .on('songChanged', function(queue, newSong, oldSong){
-    client.channels.cache.get(queue.textChannel).send(`:arrow_forward:  Started, next playing ${newSsong}`)
+    client.channels.cache.get(queue.textChannel).send(`:arrow_forward:  Started, next playing ${newSong}`)
     console.log(`Started, next playing ${newSong} on ${queue.guild.name}`)
     //client.channels.cache.get(queue.channel.id).send(`${newSong} is now playing.`)
     //console.log(`${newSong} is now playing.`))
